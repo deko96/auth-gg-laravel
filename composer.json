@@ -8,7 +8,7 @@
         "auth",
         "hwid"
     ],
-    "homepage": "https://github.com/deko96/auth-gg",
+    "homepage": "https://github.com/deko96/auth-gg-laravel",
     "license": "MIT",
     "type": "library",
     "authors": [
