@@ -1,6 +1,6 @@
 {
-    "name": "deko96/auth-gg",
-    "description": "Auth.gg wrapper for Laravel",
+    "name": "deko96/auth-gg-laravel",
+    "description": "Simple Auth.gg wrapper for Laravel",
     "keywords": [
         "deko96",
         "auth-gg"
@@ -15,6 +15,7 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.1",
         "illuminate/support": "^6.0"
