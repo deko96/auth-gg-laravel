@@ -1,0 +1,53 @@
+{
+    "name": "deko96/auth-gg",
+    "description": "Auth.gg wrapper for Laravel",
+    "keywords": [
+        "deko96",
+        "auth-gg"
+    ],
+    "homepage": "https://github.com/deko96/auth-gg",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dejan Bozhinoski",
+            "email": "bozhinoski996@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deko96\\AuthGG\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deko96\\AuthGG\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deko96\\AuthGG\\AuthGGServiceProvider"
+            ],
+            "aliases": {
+                "AuthGG": "Deko96\\AuthGG\\AuthGGFacade"
+            }
+        }
+    }
+}
