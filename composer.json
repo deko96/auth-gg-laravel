@@ -2,8 +2,11 @@
     "name": "deko96/auth-gg-laravel",
     "description": "Simple Auth.gg wrapper for Laravel",
     "keywords": [
-        "deko96",
-        "auth-gg"
+        "licenses",
+        "users",
+        "auth.gg",
+        "auth",
+        "hwid"
     ],
     "homepage": "https://github.com/deko96/auth-gg",
     "license": "MIT",
@@ -17,8 +20,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^6.0"
+        "php": "^7.3",
+        "illuminate/support": "^8.0.0 || ^9.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
