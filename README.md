@@ -1,7 +1,7 @@
 # Simple Auth.gg Laravel wrapper
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/deko96/auth-gg.svg?style=flat-square)](https://packagist.org/packages/deko96/auth-gg)
-[![Total Downloads](https://img.shields.io/packagist/dt/deko96/auth-gg.svg?style=flat-square)](https://packagist.org/packages/deko96/auth-gg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/deko96/auth-gg-laravel.svg?style=flat-square)](https://packagist.org/packages/deko96/auth-gg)
+[![Total Downloads](https://img.shields.io/packagist/dt/deko96/auth-gg-laravel.svg?style=flat-square)](https://packagist.org/packages/deko96/auth-gg)
 
 This package was rapidly developed for my personal needs, but since I didn't found any similar package I've decided to publish it so anyone can use it. I am sorry for the poor documentation, once I get some time I will do some updates and provide with actual examples of how to use this package. In the meanwhile, you need to find your way through by reading my code 😁
 
